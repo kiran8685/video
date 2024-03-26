@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space related Website Template</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/space.css') }}">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <h1>My<span>Website</span></h1>
+            <ul>
+                <li>Home</li>
+                <li>Missions</li>
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="{{ url_for('static', filename='styles/rocket2.png') }}" alt="nahi mila rocket">
+        </div>
+        <img src="{{ url_for('static', filename='styles/./astronaut.png') }}" alt="" class="shake">
+        <div class="main">
+            <div class="picture">
+                <img src="{{ url_for('static', filename='styles/./astronaut.png') }}" alt="">
+            </div>
+            <div class="main__text">
+                <h1>Live <span>Sessions</span></h1>
+                <p>KUCH toh aacha likh diyo!</p>
+                <button onclick="startVideoConference()" class="btn">Shuru karo</button>
+                <script src="https://meet.jit.si/external_api.js"></script>
+                <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* Targetting all body elements */
+body {
+  font-family: Arial, sans-serif;  /* Set the font */
+  margin: 0;  /* Remove default margins */
+  padding: 0;  /* Remove default padding */
+}
+
+/* Targetting all heading elements (H1, H2, H3, etc.) */
+h1, h2, h3 {
+  text-align: center;  /* Center align headings */
+  margin-bottom: 20px;  /* Add space below headings */
+}
+
+/* Targetting all paragraph elements */
+p {
+  line-height: 1.5;  /* Adjust line spacing */
+  margin-bottom: 15px;  /* Add space below paragraphs */
+}
+
+/* Targetting anchor tags (links) */
+a {
+  color: blue;  /* Set link color */
+  text-decoration: none;  /* Remove underline from links */
+}
+
+/* Targetting links on hover (when the mouse is over the link) */
+a:hover {
+  color: darkblue;  /* Change link color on hover */
+}
