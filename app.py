@@ -14,6 +14,6 @@ def contact():
 @app.route("/video",methods=['GET','POST'])
 def video():
     # requests.get(url='http://127.0.0.1:5000/static/script.js')
-    return render_template("video.html")
+    return render_template("try.html")
 if __name__ == '__main__':
     app.run(debug=True)

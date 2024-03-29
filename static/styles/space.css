@@ -222,3 +222,8 @@ a {
         opacity: 1;
     }
 }
+
+.main__text{
+    color: aliceblue;
+    align-items: center;
+}

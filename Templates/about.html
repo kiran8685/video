@@ -1,31 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Conferencing</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles/space.css') }}">
-</head>
-<body>
-    <div class="header">
-        <div class="nav">
-            <h1>My<span>Website</span></h1>
-            <ul>
-                <li><a href="/"><span>Home</span></a></li>
-                <li><a href="/about"><span>About</span></a></li>
-                <li><a href="/contact"><span>Contact</span></a></li>
-            </ul>
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./static/styles/base.css">
+        <link rel="stylesheet" href="./static/styles/navbar.css">
+        <link rel="stylesheet" href="./static/styles/main.css">
+        <link rel="stylesheet" href="./static/styles/footer.css">
+        <link rel="stylesheet" href="./static/styles/space.css">
+        
+        <title>About us</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="nav">
+                <h1>Lets<span>Meet</span>Together</h1>
+                <ul>
+                    <li><a href="/"><span>Home</span></a></li>
+                    <li><a href="/about"><span>About</span></a></li>
+                    <li><a href="/contact"><span>Contact</span></a></li>
+                </ul>
+            <div class="logo">
+            <a href="#"><img src="./static/l.png" alt="logo"></a>
+            </div>
         </div>
-        <div class="mx-auto" style="width: 500px;">
-            <span>
-                <h1><div class="d-flex justify-content-center mt-5">Live<span>Sessions</span></div></h1>
-                <div class="d-flex justify-content-center">Likh de kuch toh</div>
-                <div class="d-flex justify-content-center">ye abhi ek chote se dabe k andar h.. agar tujhe iske lenght badhani h toh iski parent div main width wali pixel badha de.. is dabbe ki width filhal itni hi hai jitni is text ki dikh rahi h</div>
-                <div class="d-flex justify-content-center">bleh</div>
-                <div class="d-flex justify-content-center">you can increase the pixels more from 500 to as much u want bitch</div>
-            </span>
-        </div>
-    </div>
-</body>
+
+        <div class="right-side">
+            <div class="account">
+                <img src="C:\Users\KIIT\Desktop\contact\static\img\social_media" alt="pks">
+                <div class="dropdown-caret"></div>
+            </div>
+                
+
+        <main>
+            <div class="title">Let's Meet Together</div>
+            <div class="title-info">We'll get back to you soon!</div>
+
+            <form action="" method="" class="form">
+                <div class="input-group">
+                    <input type="text" name="first_name" id="first-name" placeholder="First name">
+                    <label for="first-name">First name</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+                    <label for="last-name">Last name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                    <label for="e-mail">e-mail</label>
+                </div>
+
+                <div class="textarea-group">
+                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/facebook.svg" alt="Facebook"></a>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/github.svg" alt="GitHub"></a>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/instagram.svg" alt="Instagram"></a>
+ 
+            <a href="#"><img class="codecell-img" src="./static/img/codecell_logo.svg" alt="Let's Meet Together"></a>
+ 
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/linkedin.svg" alt="LinkedIn"></a>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/twitter.svg" alt="Twitter"></a>
+        </footer>
+    </body>
 </html>
