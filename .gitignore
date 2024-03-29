@@ -3,3 +3,7 @@ try.html
 .vscode
 .ipynb
 .ipynb_checkpoints
+video.html
+check.py
+__pycache__
+faq.html
