@@ -1,18 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Sessions</title>
-    <link rel="stylesheet" href="../static/styles/style.css">
-</head>
-<body>
-    <img src =  "C:\Users\KIIT\Desktop\Projects\Video Conferecing\" alt="back.jpg" />
-<!-- <body> -->
-    <h1>Live Sessions</h1>
-    <button onclick="startVideoConference()">Start Video Conference</button>
-    <!-- <p style="background-image: url('img.jpeg');"></p> -->
-    <script src="https://meet.jit.si/external_api.js"></script>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="codecell, tsec, contact, contact us, harsh kapadia, html, css, js, vanilla css">
+        <meta name="description" content="A static contact us page for TSEC CodeCell by Harsh Kapadia">
+        <meta name="author" content="Harsh Kapadia">
+
+        <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./static/styles/base.css">
+        <link rel="stylesheet" href="./static/styles/navbar.css">
+        <link rel="stylesheet" href="./static/styles/main.css">
+        <link rel="stylesheet" href="./static/styles/footer.css">
+        
+        <link rel="shortcut icon" href="./static/l.png" type="image/x-icon" sizes="any">
+
+        <script defer src="./static/js/account_dropdown.js"></script>
+        <script defer src="./static/js/burger_menu_dropdown.js"></script>
+
+        <title>Let's Meet Together</title>
+    </head>
+
+    <body>
+            <div class="nav">
+                <h1>Let's<span>Meet</span>Together</h1>
+                <ul>
+                    <li><a href="/"><span>Home</span></a></li>
+                    <li><a href="/about"><span>About</span></a></li>
+                    <li><a href="/contact"><span>Contact</span></a></li>
+                </ul>
+            </div>
+
+        <main>
+            <div class="title">Kuch problem hai?</div>
+            <div class="title-info">Sampark karein!</div>
+
+            <form action="" method="" class="form">
+                <div class="input-group">
+                    <input type="text" name="first_name" id="first-name" placeholder="First name">
+                    <label for="first-name">First name</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+                    <label for="last-name">Last name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                    <label for="e-mail">e-mail</label>
+                </div>
+
+                <div class="textarea-group">
+                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/facebook.svg" alt="Facebook"></a>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/github.svg" alt="GitHub"></a>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/instagram.svg" alt="Instagram"></a>
+ 
+            <a href="#"><img class="codecell-img" src="./static/img/codecell_logo.svg" alt="LMT"></a>
+ 
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/linkedin.svg" alt="LinkedIn"></a>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/twitter.svg" alt="Twitter"></a>
+        </footer>
+    </body>
 </html>
