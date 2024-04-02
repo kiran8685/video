@@ -28,6 +28,9 @@ def index():
 @app.route("/about")
 def about():
     return render_template("about.html")
+@app.route("/chat")
+def chat():
+    return render_template("chat.html")
 
 @app.route("/contact",methods=['GET','POST'])
 def contact():

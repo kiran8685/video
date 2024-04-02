@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
     list-style: none;
     font-family: 'Roboto Mono', monospace;
 }
