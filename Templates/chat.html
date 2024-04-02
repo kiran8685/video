@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chatbot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="{{ url_for('static', filename='img/bot.png') }}" />
+    <link rel="shortcut icon" href="./static/l.png" type="image/x-icon" sizes="any">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/space.css') }}">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <h1>Let's<span>Meet</span>Together</h1>
+            <ul>
+                <li><a href="/"><span>Home</span></a></li>
+                <li><a href="/about"><span>About</span></a></li>
+                <li><a href="/contact"><span>Contact</span></a></li>
+                <li><a href="/chat"><span>Chat</span></a></li>
+            </ul>
+        </div>
+        <div id="container" class="container">
+            <div id="chat" class="chat">
+                <div id="messages" class="messages"></div>
+                <input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+            </div>
+            <img src="./static/img/bot.png" alt="Robot cartoon" height="500vh">
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./static/index.js" ></script>
+<script type="text/javascript" src="./static/constants.js" ></script>
+<script type="text/javascript" src="./static/speech.js" ></script>
+</html>
