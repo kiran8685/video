@@ -28,6 +28,7 @@ const prompts = [
   ["let's meet together","lets meet together","lmt","LMT","about"],
   ["start","on","connect"],
   ["created"]
+  ["haha","ha","lol","hehe","funny","joke"]
 ]
 
 // Possible responses, in corresponding order
@@ -64,6 +65,7 @@ const replies = [
   ["At Let's Meet Together, we are committed to pushing the boundaries of online communication while upholding the highest standards of integrity and security. We continuously strive to innovate and improve, listening to feedback from our users and incorporating the latest advancements in technology."],
   ["Go to home page and press on start video conferencing"],
   ["This web is created by Prashant Singh"]
+  ["Haha!","Good one!"]
 ]
 
 // Random for any other user input
